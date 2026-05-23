@@ -690,6 +690,30 @@
             transform: translateY(-3px);
             box-shadow: var(--glow);
         }
+
+        .whatsapp-float {
+            position: fixed;
+            right: 1.5rem;
+            bottom: 1.5rem;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #25D366;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            text-decoration: none;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+            transition: transform 0.2s, box-shadow 0.2s;
+            z-index: 1100;
+        }
+
+        .whatsapp-float:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 14px 35px rgba(0, 0, 0, 0.3);
+        }
         
         /* Footer */
         footer {
@@ -1250,6 +1274,8 @@
         </div>
     </section>
     
+    <a href="https://wa.me/919841945543?text=Hello%20Jagadeesh%2C%20I%20would%20like%20to%20connect." target="_blank" rel="noopener noreferrer" class="whatsapp-float" title="Chat on WhatsApp">💬</a>
+
     <!-- Footer -->
     <footer>
         <div class="container">
